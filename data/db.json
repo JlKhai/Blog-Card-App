@@ -55,10 +55,16 @@
       "id": 11
     },
     {
-      "title": "Jistin Bieber",
-      "description": "A canadian pop singer who isn't managed to marriage his lover Selena.",
+      "title": "Justin Bieber",
+      "description": "Justin Bieber is a Canadian pop star",
       "image": "https://i.pinimg.com/474x/bb/ca/ec/bbcaecb3ff254a00c27f327f6548bfdf.jpg",
       "id": 12
+    },
+    {
+      "title": "My Holiday ",
+      "description": "On this Oct holidays I and  my wife spent our holiday in hiking.",
+      "image": "https://i.pinimg.com/564x/01/e2/1b/01e21b2797f0f401b6534b38cac87fe6.jpg",
+      "id": 13
     }
   ]
 }

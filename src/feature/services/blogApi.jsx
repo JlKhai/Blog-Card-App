@@ -33,14 +33,6 @@ export const blogApi = createApi({
       }),
       invalidatesTags: ['blogApi'],
     }),
-    // editBlog: builder.mutation({
-    //   query: (newData) => ({
-    //     url: `/blogs/${newDate?.id}`,
-    //     method: 'PATCH',
-    //     body: newData,
-    //   }),
-    //   invalidatesTags: ['blogApi'],
-    // }),
     editBlog: builder.mutation({
       query: (newData) => ({
         url: `/blogs/${newData?.id}`,

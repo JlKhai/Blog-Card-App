@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import {
   useEditBlogMutation,
@@ -10,10 +10,16 @@ const EditBlog = () => {
 
   const { id } = useParams()
   const { data: blog } = useGetSingleBlogQuery(id)
-  const [title, setTitle] = useState(blog?.title)
-  const [description, setDescription] = useState(blog?.description)
-  const [image, setImage] = useState(blog?.image)
 
+  const [title, setTitle] = useState('')
+  const [description, setDescription] = useState('')
+  const [image, setImage] = useState('')
+
+  useEffect(() => {
+    setTitle(blog?.title)
+    setDescription(blog?.title)
+    setImage(blog?.image)
+  }, [blog])
   const [editBlog] = useEditBlogMutation()
 
   const editBlogHandler = (e) => {

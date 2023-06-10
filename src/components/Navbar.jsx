@@ -12,8 +12,10 @@ const Navbar = () => {
     const filteredBlog = blog?.filter((item) =>
       item.title.toLowerCase().includes(search),
     )
+
     //sent filteredBlog to search component using use Navigate
     nav('/search', { state: { filteredBlog: filteredBlog } })
+    setSearch('')
   }
 
   return (
