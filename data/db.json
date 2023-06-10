@@ -1,0 +1,64 @@
+{
+  "Blogs": [
+    {
+      "id": 1,
+      "title": "Apple",
+      "description": "Apple is world no.1 leading tech company in 2023 with their new innovation AR/VR headphone pro",
+      "image": "https://i.pinimg.com/564x/3b/fe/c7/3bfec744a32348309a60b3b0eeb52142.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Amazon",
+      "description": " Amazon is world no.1 leading in onlin store",
+      "image": "https://i.pinimg.com/564x/37/d8/d1/37d8d1138fba3f85fde7edc83a9d93c0.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Tesla",
+      "description": " Tesla which made by Elon Mask is the world no.1 leading Electric Car company",
+      "image": "https://i.pinimg.com/564x/30/9a/da/309ada459da49544debd994a608f0ae0.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Samsung",
+      "description": " Samsung is the world most popular android phone company",
+      "image": "https://i.pinimg.com/474x/89/31/79/893179d2125f45018f4cf39f15504330.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Nokia",
+      "description": "Nokia is used to be the world leading company in the past decades",
+      "image": "https://i.pinimg.com/474x/4e/b9/0e/4eb90e14b81526b6ced2f7faecfed45c.jpg"
+    },
+    {
+      "title": "Motorola",
+      "description": "Motorola , which is the most famoue for producing the best midrage phone for customer ",
+      "image": "https://i.pinimg.com/474x/fb/bd/db/fbbddb152208b19160465e89ae0cb35b.jpg",
+      "id": 8
+    },
+    {
+      "title": "BMW",
+      "description": "BMW which  made highend luxury car for dacades and still world top luxury car producer company.",
+      "image": "https://i.pinimg.com/474x/84/e7/19/84e719c48dde6fc9c9e55323db0c2ee7.jpg",
+      "id": 9
+    },
+    {
+      "title": "Erling Halaad",
+      "description": "The golden boot winner Erling Halaand is a Manchester player.",
+      "image": "https://i.pinimg.com/474x/42/16/76/421676afe38f2f012d25bab425cbc099.jpg",
+      "id": 10
+    },
+    {
+      "title": "Chelsea Football Club",
+      "description": "Chelsea football club is london base club.",
+      "image": "https://i.pinimg.com/474x/fb/f9/ba/fbf9ba6fc89992249a805757a770722c.jpg",
+      "id": 11
+    },
+    {
+      "title": "Jistin Bieber",
+      "description": "A canadian pop singer who isn't managed to marriage his lover Selena.",
+      "image": "https://i.pinimg.com/474x/bb/ca/ec/bbcaecb3ff254a00c27f327f6548bfdf.jpg",
+      "id": 12
+    }
+  ]
+}
