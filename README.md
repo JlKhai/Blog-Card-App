@@ -2,7 +2,7 @@
 
 # What I used
 
-- RTK Reduc Toolkit
+- RTK query
 - Tailwind Css
 - Mantine
 
